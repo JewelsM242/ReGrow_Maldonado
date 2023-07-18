@@ -12,5 +12,6 @@ Some mecanichs I've made, but are not limited to:
 - A parser that allow for my teamates to easily implement game triggers and dialouge without needing coding expierence.
 - Player controls that allow for movement, interaction, game slow down, and position rewinding.
 
-This is the full repository of the game; however, if you'd like to only see the game itself, the final build is also in this folder.
+This is the full repository of the game; 
+however, if you'd like to only see the game itself, the final build is also in this folder under "ReGrow_Final".
 
