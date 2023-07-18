@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8203614768341550362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8203614768341550360}
+  - component: {fileID: 8203614768341550361}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8203614768341550360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203614768341550362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8203614768341550361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203614768341550362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e5785e6db0f4f478925ce4c90a876b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downAction:
+    m_Name: Down
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 60969b78-915b-4627-b638-599356bff756
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 0d3c0b31-300d-40bf-abcc-dc5d65c5d99b
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6a60172d-b6e0-4d23-ac86-658d031540f6
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
+    m_Flags: 0
+  upAction:
+    m_Name: Up
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3b54c4d0-cf0d-470f-880c-83baba24b640
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ec68941c-5201-4e57-a51a-fcec25d5ed0b
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
+    - m_Name: 
+      m_Id: e6f3804c-66ea-4e06-8175-3e54272796df
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
+    m_Flags: 0
+  leftAction:
+    m_Name: Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 1f61a730-98fa-4a14-ab60-9ae08dffb84a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 494b17fa-b507-4750-b364-17d346f24d20
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 255656cd-74c5-4118-a26c-d88dd6632152
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
+  rightAction:
+    m_Name: Right
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 6a6bbd7f-71ea-4594-acda-e3d5921c35b8
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 17316f90-a8f7-4f7f-becb-b8b5c6e3bfaf
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right
+      m_Flags: 0
+    - m_Name: 
+      m_Id: fd565c01-8b91-46b8-956b-fef66f5793ce
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right
+      m_Flags: 0
+    m_Flags: 0
+  interactAction:
+    m_Name: Interact
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 05af63f7-cfcc-4731-9b12-13bdd8d4ce66
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b0fbd7bc-b9c2-4b49-b289-f0316c9199a0
+      m_Path: <Keyboard>/i
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Interact
+      m_Flags: 0
+    m_Flags: 0

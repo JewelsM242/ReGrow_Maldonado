@@ -1,0 +1,1394 @@
+fileFormatVersion: 2
+guid: dc0b07dfde2faa3439afb5c7515a88cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881ae11876c5e1c45a79d4561d7b9ef4
+      internalID: 556761855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724882bc7ee748b44a1c5465571ac65c
+      internalID: 1954659549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a988cb647850a448907a64c5d54d3b0
+      internalID: -1997247338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c90db428a3050441bf0288106737adc
+      internalID: 587943950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a0111903f6c73418dfb1bdd904e408
+      internalID: -1127146533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164a561cab6a04499437d84fc10ff93
+      internalID: 1866533266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f905098a0e6ec4ab94f7d10368781a
+      internalID: 2128314572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5884ae6c577bc2847b714caef150451c
+      internalID: -218949016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afccbb6cad6d10a4c82a1b2d5f14a65a
+      internalID: -2147118591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3e086def1e7ef4e8e840893c942849
+      internalID: 1603150709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46a76dc6a0753d42a7da18188b300ad
+      internalID: 1280581046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._12
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b65b2b5bdcf9043902f9ea81245d62
+      internalID: -885130765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._13
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2444fce1d5c8584db3e8da65356fa11
+      internalID: -552985967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._14
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 800
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ac4ee7c9df98a45b6343a4bab9dfd8
+      internalID: -349571337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210364df9c33b294e8b78d6dc29bfa6c
+      internalID: -367619687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36453dce44367c84390e4cfd80cb4d77
+      internalID: 2052301420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895794781c7b45e4ea12451f5bcf4f5b
+      internalID: -1316889414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877928b95d0cfd04eac85764872d49e8
+      internalID: -1764980125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19bc24d32374d3459f588efb8ac32d2
+      internalID: 45159594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db74c56d38d73b49a67a7fbc9adc835
+      internalID: -29099392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f652fecf5f412de43b11e05744f62769
+      internalID: 819026253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._24
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eed7f98fd379f14486e18da831d43b1
+      internalID: 172191475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._25
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20595a3d43173d4abd8e5e57bebfe90
+      internalID: -1407026485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cdb88a659a80a4d92099d04f5ebd3e
+      internalID: -95298847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77471a4948cb0cf43bd0f2a483ff646e
+      internalID: -459794168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cbc61ec59e1d345a1a3c059e6318cf
+      internalID: 1474763549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b2616538312f346a3da437f809dd65
+      internalID: -194416810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9edbf08c3bf7e48980bc0976726be7
+      internalID: 1287487365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443c6b3234426cc469da4a7c2705cfde
+      internalID: 948177611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f136de43dce5374db5f73d6034d3aaf
+      internalID: -226449429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3339eca965e042d40a07fa38243c6e4d
+      internalID: 428029515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7447fb7411674044cb063b56317fbb7c
+      internalID: 1724870709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._41
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0a568247213bc429b043e1b0d0fc48
+      internalID: -1720551343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._42
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 480
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf82ed142faab3429626985fbbae6e6
+      internalID: 806129901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b0a8f5be90b234296726be9d5b612a
+      internalID: -1534016549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47610ac9b608e14b94ab1dc4e89bf32
+      internalID: -893062948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956e06ca01496114092c18d0d8d79ea6
+      internalID: 1049098752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3557443b9dcec094485716e2218575ca
+      internalID: -625368584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96de2ea0e9a8906469ebe15fc972f00d
+      internalID: -1778007015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4582fd6297cbc4d8c550da9bc961a6
+      internalID: 1660956172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5442fb6c56733c84abbd0cd0ac020042
+      internalID: 1679893788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de5fba47f5d7464b8fddf9c8dc1f10b
+      internalID: 1953431565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a26807a8bfeb54bbf992b2595e1957
+      internalID: 1367943173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a1db878b77d8347a82caf9f4467224
+      internalID: -2052864477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa803a30873b8d444a11c3c24ee1cb1e
+      internalID: -610327590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._59
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3446cc3518e13b47968eed8d700c825
+      internalID: -1745835945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._60
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bd5d5c6bc7a4f48ab22290c77cf39d
+      internalID: 910026827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._61
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8953267c476a638489836a214c8ff3e5
+      internalID: -1220004560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._62
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7497a6fff14df7b43bdbf1eb058c3c4c
+      internalID: -1844316917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ecfea12b17f3c478dc92ad2a076158
+      internalID: 78304411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011a68309ea530d4aa946a17da7fa560
+      internalID: 729975982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a2ce6e3f887447b7076e0ec22d1d4
+      internalID: 1436316519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74741adfa85723340ad601614a595cf6
+      internalID: -2129814659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afb0cba7a2be134eb1c58b3f6c733b1
+      internalID: 1069112675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._69
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1170f268af08f741a19e61ccf107de6
+      internalID: 1139229485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._70
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626bd0677a820d141a8f51efd8a3596d
+      internalID: 411021321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TileSet_1_160x160_by_SarturXz._71
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21b18324f0ecdd43873bf5345ba09df
+      internalID: 1168408156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Desert_TileSet_1_160x160_by_SarturXz._0: 556761855
+      Desert_TileSet_1_160x160_by_SarturXz._1: 1954659549
+      Desert_TileSet_1_160x160_by_SarturXz._10: 1603150709
+      Desert_TileSet_1_160x160_by_SarturXz._11: 1280581046
+      Desert_TileSet_1_160x160_by_SarturXz._12: -885130765
+      Desert_TileSet_1_160x160_by_SarturXz._13: -552985967
+      Desert_TileSet_1_160x160_by_SarturXz._14: -349571337
+      Desert_TileSet_1_160x160_by_SarturXz._15: 1331970361
+      Desert_TileSet_1_160x160_by_SarturXz._16: -367619687
+      Desert_TileSet_1_160x160_by_SarturXz._17: 2052301420
+      Desert_TileSet_1_160x160_by_SarturXz._18: -1316889414
+      Desert_TileSet_1_160x160_by_SarturXz._19: -1764980125
+      Desert_TileSet_1_160x160_by_SarturXz._2: -1997247338
+      Desert_TileSet_1_160x160_by_SarturXz._20: 45159594
+      Desert_TileSet_1_160x160_by_SarturXz._21: -29099392
+      Desert_TileSet_1_160x160_by_SarturXz._22: 819026253
+      Desert_TileSet_1_160x160_by_SarturXz._23: 892075484
+      Desert_TileSet_1_160x160_by_SarturXz._24: 172191475
+      Desert_TileSet_1_160x160_by_SarturXz._25: -1407026485
+      Desert_TileSet_1_160x160_by_SarturXz._26: -95298847
+      Desert_TileSet_1_160x160_by_SarturXz._27: -1473956972
+      Desert_TileSet_1_160x160_by_SarturXz._28: 874903126
+      Desert_TileSet_1_160x160_by_SarturXz._29: -1382847572
+      Desert_TileSet_1_160x160_by_SarturXz._3: 587943950
+      Desert_TileSet_1_160x160_by_SarturXz._30: 336142526
+      Desert_TileSet_1_160x160_by_SarturXz._31: 357704964
+      Desert_TileSet_1_160x160_by_SarturXz._32: -459794168
+      Desert_TileSet_1_160x160_by_SarturXz._33: 1474763549
+      Desert_TileSet_1_160x160_by_SarturXz._34: -194416810
+      Desert_TileSet_1_160x160_by_SarturXz._35: 1287487365
+      Desert_TileSet_1_160x160_by_SarturXz._36: 948177611
+      Desert_TileSet_1_160x160_by_SarturXz._37: -226449429
+      Desert_TileSet_1_160x160_by_SarturXz._38: 428029515
+      Desert_TileSet_1_160x160_by_SarturXz._39: 350221471
+      Desert_TileSet_1_160x160_by_SarturXz._4: -1127146533
+      Desert_TileSet_1_160x160_by_SarturXz._40: 1724870709
+      Desert_TileSet_1_160x160_by_SarturXz._41: -1720551343
+      Desert_TileSet_1_160x160_by_SarturXz._42: 806129901
+      Desert_TileSet_1_160x160_by_SarturXz._43: -556898070
+      Desert_TileSet_1_160x160_by_SarturXz._44: -1534016549
+      Desert_TileSet_1_160x160_by_SarturXz._45: -893062948
+      Desert_TileSet_1_160x160_by_SarturXz._46: 1049098752
+      Desert_TileSet_1_160x160_by_SarturXz._47: -625368584
+      Desert_TileSet_1_160x160_by_SarturXz._48: -1778007015
+      Desert_TileSet_1_160x160_by_SarturXz._49: 1660956172
+      Desert_TileSet_1_160x160_by_SarturXz._5: 1866533266
+      Desert_TileSet_1_160x160_by_SarturXz._50: 1679893788
+      Desert_TileSet_1_160x160_by_SarturXz._51: 306336334
+      Desert_TileSet_1_160x160_by_SarturXz._52: -927789445
+      Desert_TileSet_1_160x160_by_SarturXz._53: -1476952333
+      Desert_TileSet_1_160x160_by_SarturXz._54: 899084143
+      Desert_TileSet_1_160x160_by_SarturXz._55: 1953431565
+      Desert_TileSet_1_160x160_by_SarturXz._56: 1367943173
+      Desert_TileSet_1_160x160_by_SarturXz._57: -2052864477
+      Desert_TileSet_1_160x160_by_SarturXz._58: -610327590
+      Desert_TileSet_1_160x160_by_SarturXz._59: -1745835945
+      Desert_TileSet_1_160x160_by_SarturXz._6: 2128314572
+      Desert_TileSet_1_160x160_by_SarturXz._60: 910026827
+      Desert_TileSet_1_160x160_by_SarturXz._61: -1220004560
+      Desert_TileSet_1_160x160_by_SarturXz._62: -1844316917
+      Desert_TileSet_1_160x160_by_SarturXz._63: -1029111479
+      Desert_TileSet_1_160x160_by_SarturXz._64: 78304411
+      Desert_TileSet_1_160x160_by_SarturXz._65: 729975982
+      Desert_TileSet_1_160x160_by_SarturXz._66: 1436316519
+      Desert_TileSet_1_160x160_by_SarturXz._67: -2129814659
+      Desert_TileSet_1_160x160_by_SarturXz._68: 1069112675
+      Desert_TileSet_1_160x160_by_SarturXz._69: 1139229485
+      Desert_TileSet_1_160x160_by_SarturXz._7: 966831842
+      Desert_TileSet_1_160x160_by_SarturXz._70: 411021321
+      Desert_TileSet_1_160x160_by_SarturXz._71: 1168408156
+      Desert_TileSet_1_160x160_by_SarturXz._72: -315923568
+      Desert_TileSet_1_160x160_by_SarturXz._73: -705002223
+      Desert_TileSet_1_160x160_by_SarturXz._8: -218949016
+      Desert_TileSet_1_160x160_by_SarturXz._9: -2147118591
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

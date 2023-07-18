@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3061666872761602259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3061666872761602260}
+  - component: {fileID: 3061666872761602261}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3061666872761602260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061666872761602259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3061666872761602261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061666872761602259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e5785e6db0f4f478925ce4c90a876b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downAction:
+    m_Name: Down
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 49c98869-20c1-4dc2-b83a-1fbec1636851
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 3a216bf1-4320-4ab4-9fdb-239f54b5781a
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
+    m_Flags: 0
+  upAction:
+    m_Name: Up
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0491e31f-935a-44bb-9e11-5b861f10c3f4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 7fc55af0-d35b-4600-8ae4-b53b1e0edb60
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
+    m_Flags: 0
+  leftAction:
+    m_Name: Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 042e45ef-3390-456a-9107-2a3aa851ee32
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 4fea5452-168a-4ef3-859a-cadf64c29fbd
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
+  rightAction:
+    m_Name: Right
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3ad45b74-c7dc-41dc-90af-a122a3bf7eaf
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f99d684f-e913-43a7-b260-182eaf1a822e
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right
+      m_Flags: 0
+    m_Flags: 0
+  interactAction:
+    m_Name: Interact
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b596faee-d736-4a8d-9149-5dbeeeca4ebe
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 5b8541d4-9a60-4c29-99a4-82269ee888bc
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Interact
+      m_Flags: 0
+    m_Flags: 0
+  slowAction:
+    m_Name: Slow
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 93b37508-3a39-44f6-ba6a-f38a0fc636e2
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 7c000104-4c7a-4a86-af23-b0519e2877e0
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Slow
+      m_Flags: 0
+    m_Flags: 0
+  rewindAction:
+    m_Name: Rewind
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4a2a5c73-e0c2-4e3e-82eb-cd14fcfdffdb
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  triggerAction:
+    m_Name: Trigger
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2e1062c2-5af0-4faa-bcd8-131e1aff3f0a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0

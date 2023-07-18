@@ -1,0 +1,83 @@
+#{Goal}
+#true | starting
+#{Objective}
+#Inter_Fire NW | off
+#{Trigger}
+#Dialogue | Errors detected in the Small Desert Biosphere, please report to duty, etc etc, remember, the cost of this environment is worth your life ten times over. Any and all destruction will be taken out of your paycheck.
+#Dialogue | Close the door on your way in.
+#{End Goal}
+#
+{Goal}
+true | startingFire
+{Objective}
+Button1 | start
+{Trigger}
+Activate | Inter_Fire NW , true
+Access | removingFire , true
+Dialogue | Fire detected in the north-west corner of the biosphere. Use your approved time distortion pack to restore the environment.
+Dialogue | [Use [Space] to Rewind Time on an object. Press [Shift] to Slow Time for the environment.]
+{End Goal}
+#
+{Goal}
+false | removingFire
+{Objective}
+Inter_Fire NW | off
+{Trigger}
+Activate | Inter_Fire E , true
+Activate | Inter_Fire W , true
+Access | removingFireEW , true
+Dialogue | Fire detected in the east and west walls of the biosphere. Use your approved time distortion pack to move rapidly across the biosphere and prevent the fires from growing out of control.
+Dialogue |  [Use [Q] to begin Time Distortion. Press [Q] again to trigger travel.]
+{End Goal}
+#
+{Goal}
+false | removingFireEW
+{Objective}
+Inter_Fire E | off
+Inter_Fire W | off
+{Trigger}
+Activate | Inter_Pipes , true
+Activate | Door (Locked) , true
+#Access | returnToButton , true
+Access | pipeMinigame , true
+#Dialogue | Well done [worker number]. Please return to your quarters through the access door.
+Dialogue | Ruptured pipes detected in the south. Fix the pipes.
+#Dialogue | [Use Space to Interact with objects.]
+{End Goal}
+#
+{Goal}
+false | pipeMinigame
+{Objective}
+Inter_Pipes | off
+{Trigger}
+Activate | Door (Locked) , true
+Access | returnToButton , true
+Dialogue | Well done [worker number]. Please return to your quarters through the access door.
+{End Goal}
+#
+{Goal}
+false | returnToButton
+{Objective}
+Inter_Button | start
+{Trigger}
+#Activate | Electrical_Failure , true
+Activate | Inter_Fire SW , true
+Activate | Inter_Fire NE , true
+Access | electricalFailure , true
+Dialogue | Error: Electrical failure detected at the southern door.
+Dialogue | Fire detected in the south western corner. Fire detached in the north eastern corner.
+Dialogue | Use your time distortion pack to put out the fires and restore the electric hazard in order to prevent more fires from occuring.
+{End Goal}
+#
+{Goal}
+false | electricalFailure
+{Objective}
+Inter_Fire SW | off
+Inter_Fire NE | off
+#Eletrical_Failure | off
+{Trigger}
+Activate | Door (Locked) , false
+Activate | End_Button , true
+Dialogue | Well done [worker number]. Please return to your quarters through the access door. Your pay has been docked accordingly.
+{End Goal}
+#

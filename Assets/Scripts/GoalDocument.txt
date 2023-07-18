@@ -1,0 +1,30 @@
+#This is the Goal Document. This helps make the trigger stuff actually readable
+#Below are two examples of goals and what happens
+#The first is a goal that requires Fire1 turned off, the first interactable (0) of Pair1 to be turned off, and
+#Button1 to be activated at least once (these can be in any order)
+#After that occurs the two dialogues will appear one after another
+
+{Goal}
+{Objective}
+Fire1 | off
+Pair1 - 0 | off
+Button1 | start
+{Trigger}
+Dialogue | Wow you got the fires!
+Dialogue | Good job
+{End Goal}
+
+# This is another example that uses "Activate"
+# Like before the goal requires that Button1 be used
+# After this Fire1 will be turned on and a dialogue will appear saying that a fire has started
+# This is followed up by Don't Panic.
+# You can any number of goals at that start with a potential to add more in the future (if I get to it)
+
+{Goal}
+{Objective}
+Button1 | start
+{Trigger}
+Activate | Fire1 , true
+Dialogue | Oh no! You started a fire!
+Dialogue | Don't Panic!
+{End Goal}

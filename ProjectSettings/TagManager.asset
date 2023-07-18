@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Death
+  - IPair
+  - Line
+  - CheckPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - MainGame
+  - SubGame
+  - lines
+  - background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: space background
+    uniqueID: 4219308023
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: desert background
+    uniqueID: 3664700125
+    locked: 0
+  - name: background
+    uniqueID: 1029061091
+    locked: 0
+  - name: door
+    uniqueID: 3748574455
+    locked: 0
+  - name: interactable
+    uniqueID: 888876157
+    locked: 0
+  - name: details2
+    uniqueID: 908870429
+    locked: 0
+  - name: player
+    uniqueID: 2570261775
+    locked: 0
+  - name: details
+    uniqueID: 13878209
+    locked: 0
+  - name: UI
+    uniqueID: 241811185
+    locked: 0
